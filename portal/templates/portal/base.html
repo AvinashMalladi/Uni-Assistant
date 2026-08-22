@@ -1,0 +1,73 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% block title %}SR University Portal{% endblock %}</title>
+<link rel="stylesheet" href="{% static 'portal/css/style.css' %}">
+{% csrf_token %}
+</head>
+<body>
+
+<!-- ====================== SRAAP-style header ====================== -->
+<header class="sraap-header">
+    <div class="sraap-header-top">
+        <div class="sraap-brand">
+            <span class="sraap-logo">sru</span>
+            <span class="sraap-brand-name">SR UNIVERSITY</span>
+        </div>
+        <h1 class="sraap-title">Academics &amp; Administration Portal</h1>
+    </div>
+    <nav class="sraap-nav">
+        <a href="{% url 'home' %}" class="{% if active_page == 'home' %}active{% endif %}">Home</a>
+        <a href="{% url 'academics' %}" class="{% if active_page == 'academics' %}active{% endif %}">Academics +</a>
+        <span>Profile +</span>
+        <span>Course Reg. +</span>
+        <span>Attendance +</span>
+        <a href="{% url 'results' %}" class="{% if active_page == 'results' %}active{% endif %}">Results +</a>
+        <span>Feedback +</span>
+        <span>Exams +</span>
+        <span>Grievance +</span>
+        <span>SSM +</span>
+        <span>University Clubs</span>
+        <span>Central Library</span>
+        <span>Placements</span>
+    </nav>
+</header>
+
+<div class="sraap-welcome-bar">
+    <span>Welcome to <strong>DEMO STUDENT</strong> - 23XXA00000 - BTECH - CSE(AIML)</span>
+    <span class="sraap-welcome-actions"><a href="#">Password</a> | <a href="#">Logout</a></span>
+</div>
+
+<div class="sraap-schedule-bar">
+    <span>Today's Schedule: | Weekend Break |</span>
+    <span class="sraap-schedule-links"><a href="#">Click to View Timetable</a> | <a href="#">Click to View NPTEL Live Sessions</a></span>
+</div>
+
+<main class="page-content">
+    {% block content %}{% endblock %}
+</main>
+
+<footer class="site-footer">
+    <p>SR University &mdash; Dummy Portal for Agentic AI Chatbot Demo (not the real SRAAP system)</p>
+</footer>
+
+<!-- ====================== Chatbot Widget ====================== -->
+<div id="sru-chat-launcher">🤖</div>
+<div id="sru-chat-window" class="hidden">
+    <div class="chat-header">
+        <span>SRU Assistant</span>
+        <button id="sru-chat-close">&times;</button>
+    </div>
+    <div id="sru-chat-messages"></div>
+    <div class="chat-input-row">
+        <input type="text" id="sru-chat-input" placeholder="Ask about results, attendance, fees...">
+        <button id="sru-chat-send">Send</button>
+    </div>
+</div>
+
+<script src="{% static 'portal/js/chatbot.js' %}"></script>
+</body>
+</html>

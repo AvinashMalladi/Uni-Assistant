@@ -1,0 +1,141 @@
+SR UNIVERSITY - STUDENT HANDBOOK
+Applicable for students admitted into UG Programs in the Academic Year 2026-2027 (BBA/BCA/B.Sc./B.Tech)
+
+=== ABOUT SR UNIVERSITY ===
+SR University (SRU) is a State Private University located in Warangal, Telangana. Spread across a 170-acre campus, the university has over 11,000 students and more than 1,200 faculty and staff, with six academic schools: School of Computer Science and Artificial Intelligence, School of Engineering, School of Business, School of Agriculture, School of Sciences and Humanities, School of Design.
+NIRF Ranking: 91st in Engineering (2025); University category rank band 101-150.
+
+Important Student Contacts:
+- Tuition/Transport Fee dues: Ms. B. Sunitha, Block-I Room 1018, 9912654505, b.sunitha@sru.edu.in
+- Certificates (TC, Bonafide, Migration): Ms. Jupaka Ramadevi, Block-I Room 1002, 9963084035
+- ID Card: Mr. B. Ramesh, Block-I Room 1002, 9963310699
+- Scholarships: Mr. G. Raju, 9908337049
+- Wi-Fi issues: Mr. A. Bala Krishna, 8886522500
+- Examination Cell: Mr. K. Kiran Babu, 9908336336, examcell@sru.edu.in
+- Placements/CSSP: Mr. D. Sridhar, 9000966994, stu.cssp@sru.edu.in
+- Student Grievance Cell: Mr. P. Naresh, 9989221167, grievance@sru.edu.in
+- Health and Wellness Center: Ms. B. Pavani, 6300390764
+- Anti Ragging Cell: Mr. A. Rajeshwar Rao, 9948533654, antiragging@sru.edu.in
+- Program Coordinator, School of CS & AI: 9000417060, pc.csai@sru.edu.in
+- Program Coordinator, School of Engineering: 9441732495, pc.soe@sru.edu.in
+
+=== ACADEMIC CALENDAR STRUCTURE ===
+Academic Year: July to June, split into Odd Semester (July/Aug - Nov/Dec), Even Semester (Dec/Jan - Apr/May), and an optional Summer Semester (May-July) for backlog/improvement courses.
+
+Program Durations and Credits:
+- B.Tech: Normal 8 semesters, Max 16 semesters, 160-180 credits
+- Lateral Entry: Normal 6 semesters, Max 12 semesters, 120-130 credits
+- BBA: Normal 6 semesters, Max 12 semesters, 120 credits
+- B.Sc (Hons.) Agriculture: Normal 8 semesters, Max 14 semesters, 170-190 credits
+- B.Sc: Normal 6 semesters, Max 12 semesters, 120 credits
+- BCA: Normal 6 semesters, Max 12 semesters, 120 credits
+- M.Sc / MCA / MBA / M.Tech: Normal 4 semesters, Max 8 semesters, 80 credits
+
+=== ATTENDANCE POLICY (Section 3.7) ===
+A minimum of 75% attendance in each course is mandatory to be eligible for the End Semester Examination (ESE). Attendance is calculated course-wise.
+- If attendance >= 75%: Eligible for exams directly.
+- If attendance is between 65% and 75%: Student must pay a condonation fee and submit supporting documents; the Condonation Board reviews the case and decides eligibility.
+- If attendance is below 65%: Student is DETAINED from the course (awarded 'R' grade) and must re-register for the course in a later semester or the Summer Semester.
+Permitted absence can be used for medical emergencies, family functions, or approved University activities (seminars, NSS/NCC camps, sports, cultural events).
+
+=== GRADING SYSTEM (Section 3.8) ===
+Letter Grade | Performance | Marks Range | Grade Point
+A+ | Excellent | 86-100 | 10
+A | Very Good | 76-85 | 8.5
+B+ | Good | 66-75 | 7.5
+B | Above Average | 51-65 | 6
+C | Average | 45-50 | 5
+R | Repeat (inadequate attendance/Dropped/Unregistered) | - | 0
+F | Fail/Malpractice | - | 0
+I | Incomplete (exam fee not paid/absent in end exam) | - | 0
+
+SGPA (Semester Grade Point Average) = (Sum of Credits x Grade Points for each course) / (Sum of Credits)
+CGPA (Cumulative Grade Point Average) = weighted average of SGPA across all completed semesters, weighted by credits per semester.
+Formula for conversion of CGPA to percentage of marks: Percentage = 10 x CGPA.
+Minimum passing requirement: 45% aggregate marks for Undergraduate programs; 60% aggregate marks for Postgraduate and PhD programs.
+When a student repeats a course, the BETTER grade is considered for CGPA. The 'I' grade is not considered while calculating CGPA.
+
+=== EXAMINATION PROCESS AND GRADE RECOVERY (Section 3.9) ===
+Eligibility to appear for exams requires: registration for the course, completed exam registration, paid exam fee, and meeting minimum attendance.
+- Closed Book Examination: no reference material allowed, tests conceptual understanding.
+- Open Book Examination: approved learning resources allowed, tests application and analysis.
+- Mid-Term Make-up Examination: available for students absent or scoring below qualifying marks in the mid-term, for a fee.
+- Grade Improvement: Students with A, B+, B, or C grades may re-register for Grade Improvement once per course before graduation; the better of the two grades is retained for CGPA, but revised grades are NOT considered for university medals or ranks.
+- Clearing F Grade: One Supplementary Examination attempt allowed; maximum grade awardable through supplementary is C.
+- Clearing R Grade: Must re-register and complete all evaluation components again (Summer Semester or next offering).
+- Clearing I Grade: May appear for End Semester Make-up Examination after paying the fee; marks replace the original End Semester marks.
+Declaration of Results: Published via SRAAP portal after approval by Dean Academics. Correction requests must be submitted within 15 days of result declaration.
+
+=== PROMOTION POLICY (Section 3.10, B.Tech - Flowchart 2.4a) ===
+- End of First Year: Promoted to Second Year if CGPA >= 4.50 OR Credits >= 40%. Otherwise, may continue at own risk for max 2 semesters (medical grounds) or repeat the first year. Note: only ONE chance is given during the entire UG program to continue at own risk in this way.
+- End of Second Year: Promoted to Third Year if CGPA >= 5.00 OR Credits >= 40%. Otherwise on-hold, not promoted, must register for failed courses whenever offered.
+- End of Third Year: Promoted to Fourth Year if CGPA >= 5.00 OR Credits >= 40%.
+
+Promotion Policy for BBA/BCA (Flowchart 2.4b):
+- End of First Year: Promoted to Second Year if CGPA >= 4.50 OR Credits >= 40%.
+- End of Second Year: Promoted to Third Year if CGPA >= 4.50 OR Credits >= 50%.
+
+Students admitted through lateral entry are governed by promotion requirements applicable from the second year onwards.
+
+=== DEGREE AWARD REQUIREMENTS AND HONORS (Section 3.17) ===
+Minimum CGPA for UG degree award: 6.00 or above, plus completion of all courses, compliance with academic rules, and clearance of all dues.
+- Chancellor's Gold Medal: best UG student overall, minimum 9.0 CGPA, no backlogs, no disciplinary case.
+- Vice-Chancellor's Medal: top performer per program/branch, minimum 8.5 CGPA, no backlogs, no disciplinary case.
+- Semester Topper Award: highest gamification + academic points per semester, minimum 8.0 CGPA.
+
+=== HONOURS AND MINOR DEGREE (Section 3.4) ===
+Honours Degree: minimum 16 credits of approved advanced courses via overloading (regular or Summer Semester); must maintain prescribed minimum CGPA.
+Minor Degree: minimum 16 credits from an approved Minor basket, distinct from core curriculum, via overloading.
+
+=== ACADEMIC INTEGRITY / ANTI-PLAGIARISM (Annexure I) ===
+Plagiarism Penalty Levels (for theses/publications):
+- Level 0: Similarity up to 10% (single source) - No penalty if under 1%; thesis passes as per regulations.
+- Level 1: Similarity 10-20% - Scholar must revise and resubmit within 30 days (one chance only).
+- Level 2: Similarity above 20% - Formal penalty per regulations and UGC norms; may be barred for one year from submitting academic documents.
+Academic Integrity Committee (AIC) and School Academic Integrity Committee (SAIC) handle investigations.
+
+=== HOSTEL RULES ===
+- Accommodation: triple-sharing rooms, separate for boys and girls; AC and non-AC options.
+- Room, once allotted, is not changed; hostel fee is for the full academic year (non-refundable if vacated mid-year).
+- Hostel Fee must be paid 15 days before the commencement of each semester.
+- Two local outings permitted per week, timing 7:00 AM to 6:00 PM; students reporting after 6:00 PM are not permitted entry.
+- "Silence Period" from 10:00 PM to 7:00 AM.
+- Personal vehicles not allowed inside campus; must be parked outside the second gate at own risk.
+- Contacts: Hostel Manager (Boys) Mr. A. Surender, 9989671719; Hostel Manager (Girls) Ms. S. Shobha Rani, 9701578799.
+
+=== LIBRARY (Section 2.13) ===
+~53,111 books, 17 journals, 17 magazines, 30,000+ online e-journals.
+Working hours: Monday-Friday 8:00 AM - 8:00 PM; Saturday-Sunday 10:00 AM - 4:00 PM. Reading Hall open all days 8:00 AM - 10:00 PM.
+Borrowing: UG students - 4 books, 1 month loan period. Overdue fine: Re.1/day/book.
+
+=== FEE PAYMENT AND DOCUMENTATION ===
+Course registration must be completed via SRAAP within timelines in the Academic Calendar; late registration attracts a fee.
+Fee Payment Schedule: First Year - at time of admission. Subsequent years - 15 days before the commencement of each semester.
+Failure to pay fees on time results in late fee penalties, withheld academic documents, and denial of access to exams/portal.
+
+=== DISCIPLINARY / CODE OF CONDUCT (Section 4) ===
+Minimum attendance and CGPA rules also apply for Student Council eligibility (75% attendance previous semester, min CGPA 7).
+Dress Code: Formal dress mandatory on Mondays and Tuesdays, and during presentations, seminars, placements, and official events.
+Zero-tolerance policy on alcohol, drugs, tobacco on campus.
+Ragging: Punishable with suspension, expulsion, fines between Rs. 25,000 and Rs. 1 Lakh, and potential imprisonment up to two years, per UGC Regulations 2009.
+
+=== TRANSPORTATION ===
+Transport covers Kazipet, Hanamkonda, Warangal, Karimnagar, Husnabad, Jammikunta, Huzurabad, Monday-Friday for day scholars. Fee is charged per distance/stop, paid at the beginning of the academic year, non-refundable.
+
+=== GAMIFICATION / STUDENT SUCCESS FRAMEWORK (Section 3.16) ===
+Alpha Coins (academic) and Sigma Coins (extracurricular). 1 coin = Rs. 0.10.
+Badge Levels: L1 HUSTLER (Alpha 1000-1999) up to L5 TITAN (Alpha >=25000); Sigma equivalent from L1 HIGH-FLYER to L5 CONQUEROR. ACE badge for >=25000 combined in both categories.
+Coins awarded for grades (A+ = 20 x credits, A = 20 x credits, B+ = 15 x credits, B = 10 x credits, C = 5 x credits), certifications, competitions, internships, publications, sports, and attendance.
+Penalties: Plagiarism -500 coins (repeat -1000), In-Discipline -200 to -5000 depending on severity, Grade F: -5 x credits.
+
+=== CAREER SERVICES (Section 5) ===
+Centre for Student Services and Placements (CSSP) handles placement training, skill development, internships, and portfolio development.
+SR Innovation Exchange (SRiX) is a DST-sponsored Technology Business Incubator supporting startups with idea validation, incubation, legal/funding support.
+
+=== IT AND WI-FI (Section 2.14) ===
+Campus is Wi-Fi enabled. Login uses university email format: enrollmentnumber@sru.edu.in.
+
+=== SCHOOL OF AGRICULTURE SPECIFIC POLICIES (Section 7) ===
+Minimum attendance for B.Sc.(Hons.) Agriculture: 75% (theory and practical separately); can be relaxed to 65% on medical grounds.
+Promotion: Automatic promotion to 2nd year regardless of backlogs. Promotion to 3rd year requires passing ALL 1st year courses with no backlogs. Promotion to 4th year requires passing all 2nd year courses with no backlogs.
+M.Sc. Agriculture: Total credit requirement 70 credits (Major 20, Minor 8, Supporting 6, Common 5, Seminar 1, Thesis Research 30). Minimum OGPA 6.50/10.00 required to pass; below 6.00 leads to cancellation of admission.

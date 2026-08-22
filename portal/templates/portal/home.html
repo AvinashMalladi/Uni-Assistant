@@ -1,0 +1,67 @@
+{% extends "portal/base.html" %}
+{% block title %}Dashboard | SR University Portal{% endblock %}
+{% block content %}
+
+<div class="dash-cards">
+    <div class="dash-card card-teal">
+        <div class="dash-card-main">23CSXXBXX-4-1</div>
+        <div class="dash-card-label">Year-Sem</div>
+        <a href="#" class="dash-card-link">More info &rarr;</a>
+    </div>
+    <div class="dash-card card-green">
+        <div class="dash-card-main">88</div>
+        <div class="dash-card-label">Attendance %</div>
+        <a href="{% url 'academics' %}" class="dash-card-link">More info &rarr;</a>
+    </div>
+    <div class="dash-card card-gold">
+        <div class="dash-card-main">DEMO MENTOR</div>
+        <div class="dash-card-sub">Contact No: 90000 00000</div>
+        <div class="dash-card-label">Mentoring Staff</div>
+        <a href="#" class="dash-card-link">More info &rarr;</a>
+    </div>
+    <div class="dash-card card-maroon">
+        <div class="dash-card-main">Alpha - Brave - 234 Coins</div>
+        <div class="dash-card-sub">Sigma - Brave - 0 Coins</div>
+        <div class="dash-card-label">Student Success Management</div>
+        <a href="#" class="dash-card-link">More info &rarr;</a>
+    </div>
+    <div class="dash-card card-teal-2">
+        <div class="dash-card-main">8.29</div>
+        <div class="dash-card-label">Overall CGPA %</div>
+        <a href="{% url 'results' %}" class="dash-card-link">More info &rarr;</a>
+    </div>
+    <div class="dash-card card-blue">
+        <div class="dash-card-main">38 | 0</div>
+        <div class="dash-card-label">No. of Courses | Total Backlogs</div>
+        <a href="{% url 'results' %}" class="dash-card-link">More info &rarr;</a>
+    </div>
+</div>
+
+<div class="dash-tables">
+    <div class="dash-table-block">
+        <h3 class="dash-table-header">Last Week Attendance %</h3>
+        <table class="dash-table">
+            <thead><tr><th>S.No</th><th>Date</th><th>Held</th><th>Attend</th></tr></thead>
+            <tbody>
+                <tr><td>1</td><td><a href="#">21-08-2026</a></td><td>3</td><td>0</td></tr>
+                <tr><td>2</td><td><a href="#">20-08-2026</a></td><td>4</td><td>4</td></tr>
+                <tr><td>3</td><td><a href="#">19-08-2026</a></td><td>4</td><td>4</td></tr>
+                <tr><td>4</td><td><a href="#">18-08-2026</a></td><td>3</td><td>3</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="dash-table-block">
+        <h3 class="dash-table-header">Course Wise Attendance %</h3>
+        <table class="dash-table">
+            <thead><tr><th>S.No</th><th>Course Name</th><th>LTP Cls</th><th>Held Cls</th><th>PR</th></tr></thead>
+            <tbody>
+                <tr><td>1</td><td><a href="#">AGENTIC AI</a></td><td>48</td><td>8</td><td>8</td></tr>
+                <tr><td>2</td><td><a href="#">QUANTUM COMPUTING</a></td><td>48</td><td>6</td><td>6</td></tr>
+                <tr><td>3</td><td><a href="#">COMPILER DESIGN</a></td><td>48</td><td>8</td><td>6</td></tr>
+                <tr><td>4</td><td><a href="#">DATA CENTER OPERATIONS AND INFRASTRUCTURE</a></td><td>36</td><td>3</td><td>2</td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,112 @@
+:root {
+  --sru-navy: #142b52;
+  --sru-navy-dark: #0e2040;
+  --sru-gold: #d4a017;
+  --bg: #f4f6f9;
+}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'Segoe UI', Arial, sans-serif; background: var(--bg); color: #222; }
+
+/* ---------- SRAAP-style header ---------- */
+.sraap-header { background: var(--sru-navy); color: #fff; }
+.sraap-header-top {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 28px; flex-wrap: wrap; gap: 10px;
+}
+.sraap-brand { display: flex; align-items: center; gap: 10px; }
+.sraap-logo {
+  background: #fff; color: var(--sru-navy); font-weight: 800; font-size: 1.3rem;
+  padding: 6px 12px; border-radius: 6px; letter-spacing: 1px;
+}
+.sraap-brand-name { font-weight: 700; font-size: 1.1rem; letter-spacing: 0.5px; }
+.sraap-title { margin: 0; font-size: 1.6rem; font-weight: 800; text-align: right; }
+
+.sraap-nav {
+  background: var(--sru-navy-dark);
+  display: flex; flex-wrap: wrap; gap: 20px;
+  padding: 10px 28px; font-size: 0.92rem;
+}
+.sraap-nav a, .sraap-nav span { color: #dce6f5; text-decoration: none; cursor: default; }
+.sraap-nav a { cursor: pointer; }
+.sraap-nav a.active, .sraap-nav a:hover { color: #fff; font-weight: 700; }
+
+.sraap-welcome-bar {
+  background: #f9d9de; color: #7a1f2b; font-weight: 700;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 8px 28px; flex-wrap: wrap; gap: 8px; font-size: 0.9rem;
+}
+.sraap-welcome-actions a { color: #7a1f2b; text-decoration: none; font-weight: 700; }
+
+.sraap-schedule-bar {
+  background: var(--sru-gold); color: #3a2b00; font-weight: 700;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 8px 28px; flex-wrap: wrap; gap: 8px; font-size: 0.9rem;
+}
+.sraap-schedule-links a { color: #3a2b00; text-decoration: underline; font-weight: 700; }
+
+.page-content { padding-bottom: 20px; }
+
+/* ---------- Dashboard cards ---------- */
+.dash-cards { display: flex; gap: 14px; flex-wrap: wrap; padding: 24px 28px 8px; }
+.dash-card {
+  flex: 1 1 150px; min-width: 150px; border-radius: 6px; padding: 16px;
+  color: #fff; display: flex; flex-direction: column; gap: 4px; min-height: 130px;
+}
+.dash-card-main { font-size: 1.3rem; font-weight: 800; line-height: 1.2; }
+.dash-card-sub { font-size: 0.85rem; opacity: 0.95; }
+.dash-card-label { font-size: 0.8rem; opacity: 0.9; margin-top: auto; }
+.dash-card-link { color: #fff; font-size: 0.85rem; font-weight: 700; text-decoration: none; margin-top: 8px; }
+.dash-card-link:hover { text-decoration: underline; }
+
+.card-teal   { background: #1a7f8e; }
+.card-green  { background: #3c9d40; }
+.card-gold   { background: #e0a72e; }
+.card-maroon { background: #a83246; }
+.card-teal-2 { background: #17a589; }
+.card-blue   { background: #2f6fed; }
+
+/* ---------- Attendance tables ---------- */
+.dash-tables { display: flex; gap: 20px; padding: 8px 28px 40px; flex-wrap: wrap; }
+.dash-table-block { flex: 1 1 400px; min-width: 320px; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+.dash-table-header { background: #2b2f3a; color: #fff; margin: 0; padding: 12px 18px; font-size: 1rem; }
+.dash-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+.dash-table th { text-align: left; padding: 10px 18px; border-bottom: 2px solid #eee; color: #555; }
+.dash-table td { padding: 10px 18px; border-bottom: 1px solid #f0f0f0; }
+.dash-table a { color: var(--sru-navy); font-weight: 600; text-decoration: none; }
+.dash-table a:hover { text-decoration: underline; }
+
+.page-header h1 { color: var(--sru-navy); padding: 0 28px; }
+.prose { background: #fff; padding: 24px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); line-height: 1.6; margin: 0 28px; }
+.prose blockquote { border-left: 4px solid var(--sru-gold); margin: 10px 0; padding: 8px 16px; background: #fffaf0; }
+
+.site-footer { text-align: center; padding: 20px; color: #888; font-size: 0.85rem; }
+
+/* ---------- Chat widget ---------- */
+#sru-chat-launcher {
+  position: fixed; bottom: 24px; right: 24px;
+  width: 56px; height: 56px; border-radius: 50%;
+  background: var(--sru-blue); color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 26px; cursor: pointer; box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+  z-index: 1000;
+}
+#sru-chat-window {
+  position: fixed; bottom: 92px; right: 24px;
+  width: 340px; max-width: 92vw; height: 460px;
+  background: #fff; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+  display: flex; flex-direction: column; overflow: hidden; z-index: 1000;
+}
+#sru-chat-window.hidden { display: none; }
+.chat-header {
+  background: var(--sru-blue); color: #fff; padding: 12px 16px;
+  display: flex; justify-content: space-between; align-items: center; font-weight: 600;
+}
+.chat-header button { background: none; border: none; color: #fff; font-size: 20px; cursor: pointer; }
+#sru-chat-messages { flex: 1; overflow-y: auto; padding: 12px; background: #f7f9fc; }
+.msg { margin-bottom: 10px; padding: 8px 12px; border-radius: 10px; max-width: 85%; font-size: 0.9rem; line-height: 1.4; }
+.msg.bot { background: #e7edf7; color: #123a6b; border-bottom-left-radius: 2px; }
+.msg.user { background: var(--sru-blue-light); color: #fff; margin-left: auto; border-bottom-right-radius: 2px; }
+.chat-input-row { display: flex; border-top: 1px solid #eee; }
+#sru-chat-input { flex: 1; border: none; padding: 12px; font-size: 0.9rem; }
+#sru-chat-input:focus { outline: none; }
+#sru-chat-send { border: none; background: var(--sru-gold); color: #123a6b; font-weight: 700; padding: 0 16px; cursor: pointer; }
