@@ -10,8 +10,18 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'dev-secret-key-change-in-produ
 # not fine once this is a public URL a WordPress site is calling.
 DEBUG = os.environ.get('DJANGO_DEBUG', 'True') == 'True'
 
-# In production, set this to your actual host, e.g. "sru-chatbot.onrender.com"
-ALLOWED_HOSTS = [h.strip() for h in os.environ.get('DJANGO_ALLOWED_HOSTS', '*').split(',')]
+# In production, set this to your actual host, e.g. "sru-chatbot.onrender.com".
+# Render also provides RENDER_EXTERNAL_HOSTNAME automatically.
+configured_hosts = os.environ.get('DJANGO_ALLOWED_HOSTS', '*').split(',')
+render_hostname = os.environ.get('RENDER_EXTERNAL_HOSTNAME', '')
+ALLOWED_HOSTS = []
+for host in configured_hosts + [render_hostname]:
+    normalized_host = host.strip().lower()
+    if '://' in normalized_host:
+        normalized_host = normalized_host.split('://', 1)[1]
+    normalized_host = normalized_host.split('/', 1)[0]
+    if normalized_host and normalized_host not in ALLOWED_HOSTS:
+        ALLOWED_HOSTS.append(normalized_host)
 
 INSTALLED_APPS = [
     'django.contrib.admin',
