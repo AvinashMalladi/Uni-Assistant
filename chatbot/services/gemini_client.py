@@ -29,6 +29,9 @@ def _fallback_answer(question, context_chunks):
 
 def generate_answer(question, context_chunks):
     api_key = settings.GOOGLE_API_KEY
+    if not context_chunks:
+        return _fallback_answer(question, context_chunks)
+
     if not api_key:
         logger.info("GOOGLE_API_KEY not set - serving retrieved handbook text directly (no LLM call).")
         return _fallback_answer(question, context_chunks)

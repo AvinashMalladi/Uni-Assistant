@@ -2,10 +2,8 @@
 Minimal, dependency-free RAG retriever over the student handbook.
 
 Uses simple term-frequency overlap scoring (no sklearn/numpy required) so
-the demo works even on a machine where extra ML packages weren't
-pip-installed in time. Swap this for Google AI Studio's embedding API
-(models/text-embedding-004) for a stronger semantic version -- see
-`embed_and_retrieve()` below, used automatically when GOOGLE_API_KEY is set.
+the demo works even when the embedding API is unavailable. It also uses
+Google AI Studio embeddings when GOOGLE_API_KEY is set.
 """
 import math
 import re
@@ -70,16 +68,22 @@ def _embed_retrieve(query, top_k=3):
     """Semantic retrieval using Google AI Studio's embedding model. Falls
     back to keyword retrieval on any failure (missing key, network, etc.)."""
     global _embedding_cache
-    import google.generativeai as genai
+    from google import genai
 
-    genai.configure(api_key=settings.GOOGLE_API_KEY)
+    client = genai.Client(api_key=settings.GOOGLE_API_KEY)
 
     if _embedding_cache is None:
         chunks = _load_chunks()
-        result = genai.embed_content(model=settings.GEMINI_EMBEDDING_MODEL, content=chunks)
-        _embedding_cache = list(zip(chunks, result['embedding']))
+        result = client.models.embed_content(
+            model=settings.GEMINI_EMBEDDING_MODEL,
+            contents=chunks,
+        )
+        _embedding_cache = list(zip(chunks, [item.values for item in result.embeddings]))
 
-    q_emb = genai.embed_content(model=settings.GEMINI_EMBEDDING_MODEL, content=query)['embedding']
+    q_emb = client.models.embed_content(
+        model=settings.GEMINI_EMBEDDING_MODEL,
+        contents=query,
+    ).embeddings[0].values
     scored = [(_cosine(q_emb, emb), chunk) for chunk, emb in _embedding_cache]
     scored.sort(key=lambda x: x[0], reverse=True)
     return [c for _, c in scored[:top_k]]
@@ -88,7 +92,9 @@ def _embed_retrieve(query, top_k=3):
 def retrieve_context(query, top_k=3):
     if settings.GOOGLE_API_KEY:
         try:
-            return _embed_retrieve(query, top_k=top_k)
+            embedded_chunks = _embed_retrieve(query, top_k=top_k)
+            if embedded_chunks:
+                return embedded_chunks
         except Exception:
             pass  # graceful degradation to keyword search
     return _keyword_retrieve(query, top_k=top_k)
